@@ -1,0 +1,55 @@
+body {
+    background-color: hsl(0, 12%, 8%);
+}
+
+ /*ul {
+    color: rgb(118, 118, 118);
+
+
+}
+
+*/
+/*.nav {
+    padding: 33px;
+    margin-top: -50px;
+}
+*/
+.icono {
+    background-color: blueviolet;
+    color: white;    
+}
+
+.nav{
+    background-color:gainsboro;
+}
+
+.li:hover {
+    background-color: gray;
+}
+
+.navegacion{
+    height: 50px;
+}
+
+li .nav-item {
+    color: rgb(118, 118, 118);
+
+
+}
+/*
+.navegacion{
+    border: 1px solid grey;
+}
+
+*/
+
+.boton-menu{
+    background-color: blueviolet;
+    color:white;
+    border-radius: 0%;
+    /*padding-top: 0;
+    padding: 23px;
+    margin-top: -20px;
+    */
+    
+}
