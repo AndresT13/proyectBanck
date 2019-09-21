@@ -2,6 +2,10 @@ body {
     background-color: hsl(0, 12%, 8%);
 }
 
+ul {
+    font-family: 'Open-Sans',sans-serif;
+    font-size: 20px;
+}
  /*ul {
     color: rgb(118, 118, 118);
 
@@ -52,4 +56,96 @@ li .nav-item {
     margin-top: -20px;
     */
     
+}
+.pcontainer{
+    background-image: url(../images/woman.jpg);
+    height: 600px;
+    width: 100% ;
+    background-size: cover;
+        padding: 100px;
+ }
+
+ .titulo_uno{
+    font-family: 'Open Sans', sans-serif;
+     color:white;
+ }
+
+ .pcontainer2{
+    background-image: url(../images/celular.jpg);
+    height: 600px;
+    width: 100% ;
+    background-size: cover;
+        padding: 100px;
+ }
+
+ .texto_uno{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    text-align: justify;
+ }
+
+ .container_tres {
+     background-color: #bfbfbf;
+     height: 700px;
+     width: 100% ;
+     background-size: cover;
+        padding: 100px;
+ }
+
+ .titulo_dos{
+     font-family: 'Open Sans', sans-serif;
+    color: rgb(138, 5, 190);
+    font-size: 48px;
+ }
+
+.parrafo_dos{
+     font-family: 'Open Sans' , sans-serif;
+     font-size: 48px;
+     font-display: block;
+     margin-top: 0;
+    color: rgb(118, 118, 118);
+ }
+
+ /* .pcontainer3 {
+   
+    display: block;
+    object-fit: cover;
+    width: auto;
+    max-height: calc(100vh - 20em);
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  
+ } */
+
+ .imagen_uno {
+    
+    width: 500px;
+   height: 500px;
+
+   margin-left: -30px;
+ }
+
+ .enlace_uno {
+     color: rgb(138, 5, 190);
+     font-size: 28px;
+     
+ }
+ .enlace_uno:hover {
+    color: rgb(138, 5, 190);
+}
+
+.parrafo_tres {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(138, 5, 190);
+    font-size: 38px;
+
+}
+
+.parrafo_cuatro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: rgb(118, 118, 118);
 }
