@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(0, 12%, 8%);
+    background-color: #EAF2F8 ;
 }
 
 ul {
@@ -27,9 +27,9 @@ ul {
     background-color:gainsboro;
 }
 
-.li:hover {
-    background-color: gray;
-}
+/* .li:hover {
+    background-color: blueviolet;
+} */
 
 .navegacion{
     height: 50px;
@@ -37,8 +37,10 @@ ul {
 
 li .nav-item {
     color: rgb(118, 118, 118);
+}
 
-
+li .nav-item {
+    color: blueviolet;
 }
 /*
 .navegacion{
@@ -59,34 +61,57 @@ li .nav-item {
 }
 .pcontainer{
     background-image: url(../images/woman.jpg);
-    height: 600px;
+    height: 500px;
     width: 100% ;
     background-size: cover;
         padding: 100px;
  }
 
+.boton {
+font-family: 'Open Sans', sans-serif;
+color: white;
+background-color: blueviolet;
+}
+
+.boton:hover {
+   color: rgb(202, 142, 226);
+}
+
  .titulo_uno{
     font-family: 'Open Sans', sans-serif;
      color:white;
+     font-size: 30px;
  }
 
- .pcontainer2{
+ /* .pcontainer2{
     background-image: url(../images/celular.jpg);
     height: 600px;
     width: 100% ;
     background-size: cover;
         padding: 100px;
- }
+ } */
+
+.celular {
+    height: 400px;
+    width: 280px;
+    margin-left: 10%;
+    margin-bottom: 100%;
+    margin-top: 20%;  
+
+}
 
  .texto_uno{
     font-family: 'Open Sans', sans-serif;
     color:white;
     text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
  }
 
  .container_tres {
-     background-color: #bfbfbf;
-     height: 700px;
+     font-family: 'Open Sans', sans-serif;
+     background-color: #F0FCFB  ;
+     height: 500px;
      width: 100% ;
      background-size: cover;
         padding: 100px;
@@ -95,57 +120,267 @@ li .nav-item {
  .titulo_dos{
      font-family: 'Open Sans', sans-serif;
     color: rgb(138, 5, 190);
-    font-size: 40px;
+    font-size: 20px;
+    padding-left:18%;
+    padding-top: 30%;
  }
 
 .parrafo_dos{
      font-family: 'Open Sans' , sans-serif;
-     font-size: 40px;
-     font-display: block;
-     margin-top: 0;
+     font-size: 20px;
+     padding-top: 0;
+     padding-left: 18%;
     color: rgb(118, 118, 118);
- }
-
- /* .pcontainer3 {
-   
-    display: block;
-    object-fit: cover;
-    width: auto;
-    max-height: calc(100vh - 20em);
-    margin: 0px auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-  
- } */
-
- .imagen_uno {
-    
-    width: 500px;
-   height: 500px;
-
-   margin-left: -30px;
  }
 
  .enlace_uno {
      color: rgb(138, 5, 190);
-     font-size: 28px;
-     
+     font-size: 10px;
+     padding-top: 0;
+     padding-left: 18%;     
  }
+
+
+ .imagen_uno{   
+     width: 400px;
+    height: 400px;
+    margin-left: 0;
+ }
+
+ 
  .enlace_uno:hover {
     color: rgb(138, 5, 190);
 }
 
+
+
+
+
+.container_cuatro {
+    background-color: #EAF2F8 ;
+    height: 400px;    
+}
+
+.titulo_tres {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color:  rgb(138, 5, 190);
+    padding-top: 150px;
+    padding-left: 33%;
+}
+
 .parrafo_tres {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(138, 5, 190);
-    font-size: 38px;
+    color: rgb(118, 118, 118);
+    font-size: 20px;
+    padding-top: 0;
+    padding-left: 33%;
 
+}
+
+.enlace {
+     color: rgb(138, 5, 190);
+     font-size: 10px;
+     padding-top: 0;
+     padding-left: 33%;   
+}
+
+.enlace:hover {
+    color: rgb(138, 5, 190);
+}
+
+
+/*Imagen mano*/
+
+.imagen_cuatro {
+    width: 200px;
+    height: 500px;
+    border-image-slice: 1%;
+}
+
+/*Contenedor color morado*/
+
+.container_cinco {
+background-color:  rgb(83, 0, 130);
+height: 500px;
+
+}
+
+/*Titulo del contenedor*/
+.titulo_cuatro{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 33%;
+    padding-top: 150px;
+   
+   
+    
 }
 
 .parrafo_cuatro {
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-    color: rgb(118, 118, 118);
+    font-size: 20px;
+    color:rgb(202, 142, 226);
+    padding-left: 33%;
+    padding-top: 0;
+}
+
+.enlace_dos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    padding-left: 33%;
+     color:rgb(255, 255, 255);
+    
+    
+}
+
+
+.enlace_dos:hover{
+   color: rgb(202, 142, 226);
+}
+
+.imagen_cuatro {
+    height: 400px;
+    width: 360px;
+    padding-top: 15%;
+    padding-left: 30%;
+
+}
+
+.imagen_cinco {
+ background-image: url('../images/About3.jpg');
+ background-position: center center;
+ background-size: cover;
+ background-repeat: no-repeat; /* para que la imagen de fondo no se repita*/
+ position:relative;
+ height: 500px;
+
+}
+
+.imagen_cinco:before {
+    content:'';
+    position:absolute;
+    background-color: #000;
+    opacity:0.6;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+}
+
+.parrafo_cinco {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 150px;
+    padding-left: 33%;
+}
+
+.enlace_tres {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color:rgb(255, 255, 255);
+    padding-left: 33%;
+    position:relative;
+    padding-top: 0;
+}
+.enlace_tres:hover {
+   color:rgb(118, 118, 118);
+}
+
+.imagen_seis {
+    background-image: url('../images/about.jpg');
+     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; /* para que la imagen de fondo no se repita*/
+    position:relative;
+    height: 500px;
+}
+
+.imagen_seis:before {
+    content:'';
+    position:absolute;
+    background-color: #000;
+    opacity:0.6;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+}
+
+.parrafo_seis {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    padding-left: 23%;
+}
+
+.enlace_cuatro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color:rgb(255, 255, 255);
+    padding-left: 23%;
+    position:relative;
+}
+.enlace_cuatro:hover {
+   color:rgb(118, 118, 118);
+}
+
+.container_seis {
+    background-color:  rgb(83, 0, 130);
+    height: 500px;
+}
+
+.parrafo_siete {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 35%;
+    padding-left: 34%;
+}
+
+.enlace_cinco{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color:rgb(255, 255, 255);
+    padding-left: 34%;
+    position:relative;
+}
+
+.enlace_cinco:hover {
+     color: rgb(255, 255, 255);
+}
+
+
+.imagen_siete {
+  height: 400px;
+    width: 380px;
+    margin-left: 9%;
+    margin-bottom: 100%;
+    margin-top: 19%;
+    position:relative;
+    
+}
+
+.footer {
+    height:700px;
+    background-color: black;
+    
+}
+
+.logo_footer{
+    color: white;
+}
+
+.footer ul{
+       list-style:none;
+       }
+.titulo-footer {
+        color:rgb(83, 0, 130);;
+}
+
+footer-line {
+    color:grey;
 }
