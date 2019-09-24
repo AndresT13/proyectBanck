@@ -1,10 +1,10 @@
 body {
     background-color: #EAF2F8 ;
+     font-family: 'Open-Sans',sans-serif;
 }
 
 ul {
-    font-family: 'Open-Sans',sans-serif;
-    font-size: 20px;
+   font-size: 20px;
 }
  /*ul {
     color: rgb(118, 118, 118);
@@ -24,7 +24,7 @@ ul {
 }
 
 .nav{
-    background-color:gainsboro;
+    background-color:#DCDCDC;
 }
 
 /* .li:hover {
@@ -61,8 +61,10 @@ li .nav-item {
 }
 .pcontainer{
     background-image: url(../images/woman.jpg);
-    height: 500px;
-    width: 100% ;
+     background-position: center center;
+ background-size: cover;
+   max-width:100;
+   height: auto;
     background-size: cover;
         padding: 100px;
  }
@@ -92,8 +94,8 @@ background-color: blueviolet;
  } */
 
 .celular {
-    height: 400px;
-    width: 280px;
+    max-width: 100%;
+    height: auto;
     margin-left: 10%;
     margin-bottom: 100%;
     margin-top: 20%;  
@@ -299,14 +301,16 @@ height: 500px;
 }
 
 .imagen_seis:before {
-    content:'';
+    /* content:'';
     position:absolute;
     background-color: #000;
     opacity:0.6;
     top:0;
     bottom:0;
     left:0;
-    right: 0;
+    right: 0; */
+
+    position:absolute; z-index:1; width:100%; height:100%
 }
 
 .parrafo_seis {
@@ -331,6 +335,7 @@ height: 500px;
 .container_seis {
     background-color:  rgb(83, 0, 130);
     height: 500px;
+    margin: 30px 0;
 }
 
 .parrafo_siete {
